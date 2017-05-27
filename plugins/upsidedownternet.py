@@ -17,45 +17,48 @@
 #
 
 from cStringIO import StringIO
-from plugins.plugin import Plugin
+
 from PIL import Image, ImageFile
 
+from plugins.plugin import Plugin
+
+
 class Upsidedownternet(Plugin):
-    name       = "Upsidedownternet"
-    optname    = "upsidedownternet"
-    desc       = 'Flips images 180 degrees'
-    version    = "0.1"
+	name = "Upsidedownternet"
+	optname = "upsidedownternet"
+	desc = 'Flips images 180 degrees'
+	version = "0.1"
 
-    def initialize(self, options):
-        self.options = options
+	def initialize(self, options):
+		self.options = options
 
-    def responseheaders(self, response, request):
-        '''Kill the image skipping that's in place for speed reasons'''
-        if request.isImageRequest:
-            request.isImageRequest = False
-            request.isImage = True
-            self.imageType = response.responseHeaders.getRawHeaders('content-type')[0].split('/')[1].upper()
+	def responseheaders(self, response, request):
+		'''Kill the image skipping that's in place for speed reasons'''
+		if request.isImageRequest:
+			request.isImageRequest = False
+			request.isImage = True
+			self.imageType = response.responseHeaders.getRawHeaders('content-type')[0].split('/')[1].upper()
 
-    def response(self, response, request, data):
-        try:
-            isImage = getattr(request, 'isImage')
-        except AttributeError:
-            isImage = False
-        
-        if isImage:
-            try:
-                #For some reason more images get parsed using the parser
-                #rather than a file...PIL still needs some work I guess
-                p = ImageFile.Parser()
-                p.feed(data)
-                im = p.close()
-                im = im.transpose(Image.ROTATE_180)
-                output = StringIO()
-                im.save(output, format=self.imageType)
-                data = output.getvalue()
-                output.close()
-                self.clientlog.info("Flipped image", extra=request.clientInfo)
-            except Exception as e:
-                self.clientlog.info("Error: {}".format(e), extra=request.clientInfo)
-        
-        return {'response': response, 'request': request, 'data': data}
+	def response(self, response, request, data):
+		try:
+			isImage = getattr(request, 'isImage')
+		except AttributeError:
+			isImage = False
+
+		if isImage:
+			try:
+				# For some reason more images get parsed using the parser
+				# rather than a file...PIL still needs some work I guess
+				p = ImageFile.Parser()
+				p.feed(data)
+				im = p.close()
+				im = im.transpose(Image.ROTATE_180)
+				output = StringIO()
+				im.save(output, format=self.imageType)
+				data = output.getvalue()
+				output.close()
+				self.clientlog.info("Flipped image", extra=request.clientInfo)
+			except Exception as e:
+				self.clientlog.info("Error: {}".format(e), extra=request.clientInfo)
+
+		return {'response': response, 'request': request, 'data': data}

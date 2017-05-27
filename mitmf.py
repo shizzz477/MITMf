@@ -19,7 +19,7 @@
 #
 
 import logging
-
+import os
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)  # Gets rid of IPV6 Error when importing scapy
 logging.getLogger("requests").setLevel(logging.WARNING)  # Disables "Starting new HTTP Connection (1)" log message
 

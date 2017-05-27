@@ -65,10 +65,10 @@ import zipfile
 
 import magic
 import pefile
+
 from libs.bdfactory import elfbin
 from libs.bdfactory import machobin
 from libs.bdfactory import pebin
-
 from plugins.plugin import Plugin
 
 

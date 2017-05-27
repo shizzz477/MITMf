@@ -17,84 +17,86 @@
 #
 
 import logging
-import argparse
 
 from core.configwatcher import ConfigWatcher
 from core.logger import logger
 
+
 class Plugin(ConfigWatcher):
-    name        = "Generic plugin"
-    optname     = "generic"
-    tree_info   = []
-    desc        = ""
-    version     = "0.0"
+	name = "Generic plugin"
+	optname = "generic"
+	tree_info = []
+	desc = ""
+	version = "0.0"
 
-    def __init__(self, parser):
-        '''Passed the options namespace'''
+	def __init__(self, parser):
+		'''Passed the options namespace'''
 
-        if self.desc:
-            sgroup = parser.add_argument_group(self.name, self.desc)
-        else:
-            sgroup = parser.add_argument_group(self.name,"Options for the '{}' plugin".format(self.name))
+		if self.desc:
+			sgroup = parser.add_argument_group(self.name, self.desc)
+		else:
+			sgroup = parser.add_argument_group(self.name, "Options for the '{}' plugin".format(self.name))
 
-        sgroup.add_argument("--{}".format(self.optname), action="store_true",help="Load plugin '{}'".format(self.name))
+		sgroup.add_argument("--{}".format(self.optname), action="store_true", help="Load plugin '{}'".format(self.name))
 
-        self.options(sgroup)
+		self.options(sgroup)
 
-    def initialize(self, options):
-        '''Called if plugin is enabled, passed the options namespace'''
-        self.options = options
+	def initialize(self, options):
+		'''Called if plugin is enabled, passed the options namespace'''
+		self.options = options
 
-    def request(self, request):
-        '''
-            Handles all outgoing requests, hooks connectionMade()
-            request object has the following attributes:
+	def request(self, request):
+		'''
+			Handles all outgoing requests, hooks connectionMade()
+			request object has the following attributes:
 
-            request.headers => headers in dict format
-            request.commad  => HTTP method
-            request.post    => POST data
-            request.uri     => full URL
-            request.path    => path
-        '''
-        pass
+			request.headers => headers in dict format
+			request.commad  => HTTP method
+			request.post    => POST data
+			request.uri     => full URL
+			request.path    => path
+		'''
+		pass
 
-    def responseheaders(self, response, request):
-        '''
-            Handles all response headers, hooks handleEndHeaders()
-        '''
-        pass
+	def responseheaders(self, response, request):
+		'''
+			Handles all response headers, hooks handleEndHeaders()
+		'''
+		pass
 
-    def responsestatus(self, request, version, code, message):
-        '''
-            Handles server response HTTP version, code and message
-        '''
-        return {"request": request, "version": version, "code": code, "message": message}
+	def responsestatus(self, request, version, code, message):
+		'''
+			Handles server response HTTP version, code and message
+		'''
+		return {"request": request, "version": version, "code": code, "message": message}
 
-    def response(self, response, request, data):
-        '''
-            Handles all non-image responses by default, hooks handleResponse() (See Upsidedownternet for how to get images)  
-        '''
-        return {'response': response, 'request':request, 'data': data}
+	def response(self, response, request, data):
+		'''
+			Handles all non-image responses by default, hooks handleResponse() (See Upsidedownternet for how to get images)  
+		'''
+		return {'response': response, 'request': request, 'data': data}
 
-    def on_config_change(self):
-        """Do something when MITMf detects the config file has been modified"""
-        pass
+	def on_config_change(self):
+		"""Do something when MITMf detects the config file has been modified"""
+		pass
 
-    def options(self, options):
-        '''Add your options to the options parser'''
-        pass
+	def options(self, options):
+		'''Add your options to the options parser'''
+		pass
 
-    def reactor(self, strippingFactory):
-        '''This makes it possible to set up another instance of the reactor on a diffrent port, passed the default factory'''
-        pass
+	def reactor(self, strippingFactory):
+		'''This makes it possible to set up another instance of the reactor on a diffrent port, passed the default factory'''
+		pass
 
-    def setup_logger(self):
-        formatter = logging.Formatter("%(asctime)s [{}] %(message)s".format(self.name), datefmt="%Y-%m-%d %H:%M:%S")
-        self.log = logger().setup_logger(self.name, formatter)
+	def setup_logger(self):
+		formatter = logging.Formatter("%(asctime)s [{}] %(message)s".format(self.name), datefmt="%Y-%m-%d %H:%M:%S")
+		self.log = logger().setup_logger(self.name, formatter)
 
-        formatter = logging.Formatter("%(asctime)s %(clientip)s [type:%(browser)s-%(browserv)s os:%(clientos)s] [{}] %(message)s".format(self.name), datefmt="%Y-%m-%d %H:%M:%S")
-        self.clientlog = logger().setup_logger("{}_{}".format(self.name, "clientlog"), formatter)
+		formatter = logging.Formatter(
+			"%(asctime)s %(clientip)s [type:%(browser)s-%(browserv)s os:%(clientos)s] [{}] %(message)s".format(
+				self.name), datefmt="%Y-%m-%d %H:%M:%S")
+		self.clientlog = logger().setup_logger("{}_{}".format(self.name, "clientlog"), formatter)
 
-    def on_shutdown(self):
-        '''This will be called when shutting down'''
-        pass
+	def on_shutdown(self):
+		'''This will be called when shutting down'''
+		pass
