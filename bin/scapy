@@ -1,0 +1,4 @@
+#!/mnt/HDDATA/src/MITMf/bin/python
+# EASY-INSTALL-SCRIPT: 'scapy==2.3.3','scapy'
+__requires__ = 'scapy==2.3.3'
+__import__('pkg_resources').run_script('scapy==2.3.3', 'scapy')

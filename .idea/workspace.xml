@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdd8eb1a-c247-4dbf-9bce-c668a4c0c605" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/default.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/facebook.manifest" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/responder/BindShell.exe" afterPath="$PROJECT_DIR$/config/responder/BindShell.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lock.ico" afterPath="$PROJECT_DIR$/lock.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/CONTRIBUTORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/default.append" afterPath="$PROJECT_DIR$/config/app_cache_poison_templates/default.append" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/facebook.append" afterPath="$PROJECT_DIR$/config/app_cache_poison_templates/facebook.append" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/script.append" afterPath="$PROJECT_DIR$/config/app_cache_poison_templates/script.append" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app_cache_poison_templates/test.replace" afterPath="$PROJECT_DIR$/config/app_cache_poison_templates/test.replace" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/hta_driveby/flash_setup.hta" afterPath="$PROJECT_DIR$/config/hta_driveby/flash_setup.hta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/responder/AccessDenied.html" afterPath="$PROJECT_DIR$/config/responder/AccessDenied.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/responder/responder.crt" afterPath="$PROJECT_DIR$/config/responder/responder.crt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/responder/responder.key" afterPath="$PROJECT_DIR$/config/responder/responder.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/__init__.py" afterPath="$PROJECT_DIR$/core/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/banners.py" afterPath="$PROJECT_DIR$/core/banners.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/beefapi.py" afterPath="$PROJECT_DIR$/core/beefapi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/configwatcher.py" afterPath="$PROJECT_DIR$/core/configwatcher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/ClientRequest.py" afterPath="$PROJECT_DIR$/core/ferretng/ClientRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/CookieCleaner.py" afterPath="$PROJECT_DIR$/core/ferretng/CookieCleaner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/DnsCache.py" afterPath="$PROJECT_DIR$/core/ferretng/DnsCache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/FerretProxy.py" afterPath="$PROJECT_DIR$/core/ferretng/FerretProxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/SSLServerConnection.py" afterPath="$PROJECT_DIR$/core/ferretng/SSLServerConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/ServerConnection.py" afterPath="$PROJECT_DIR$/core/ferretng/ServerConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/ServerConnectionFactory.py" afterPath="$PROJECT_DIR$/core/ferretng/ServerConnectionFactory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/URLMonitor.py" afterPath="$PROJECT_DIR$/core/ferretng/URLMonitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ferretng/__init__.py" afterPath="$PROJECT_DIR$/core/ferretng/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/html/htadriveby.html" afterPath="$PROJECT_DIR$/core/html/htadriveby.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/javascript/msfkeylogger.js" afterPath="$PROJECT_DIR$/core/javascript/msfkeylogger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/javascript/plugindetect.js" afterPath="$PROJECT_DIR$/core/javascript/plugindetect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/javascript/screenshot.js" afterPath="$PROJECT_DIR$/core/javascript/screenshot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/logger.py" afterPath="$PROJECT_DIR$/core/logger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/mitmfapi.py" afterPath="$PROJECT_DIR$/core/mitmfapi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/msfrpc.py" afterPath="$PROJECT_DIR$/core/msfrpc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/netcreds.py" afterPath="$PROJECT_DIR$/core/netcreds.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/packetfilter.py" afterPath="$PROJECT_DIR$/core/packetfilter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/ARP.py" afterPath="$PROJECT_DIR$/core/poisoners/ARP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/DHCP.py" afterPath="$PROJECT_DIR$/core/poisoners/DHCP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/ICMP.py" afterPath="$PROJECT_DIR$/core/poisoners/ICMP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/LLMNR.py" afterPath="$PROJECT_DIR$/core/poisoners/LLMNR.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/MDNS.py" afterPath="$PROJECT_DIR$/core/poisoners/MDNS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/NBTNS.py" afterPath="$PROJECT_DIR$/core/poisoners/NBTNS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/poisoners/__init__.py" afterPath="$PROJECT_DIR$/core/poisoners/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/proxyplugins.py" afterPath="$PROJECT_DIR$/core/proxyplugins.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/__init__.py" afterPath="$PROJECT_DIR$/core/responder/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/fingerprint.py" afterPath="$PROJECT_DIR$/core/responder/fingerprint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/odict.py" afterPath="$PROJECT_DIR$/core/responder/odict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/packets.py" afterPath="$PROJECT_DIR$/core/responder/packets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/settings.py" afterPath="$PROJECT_DIR$/core/responder/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/responder/utils.py" afterPath="$PROJECT_DIR$/core/responder/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/Browser.py" afterPath="$PROJECT_DIR$/core/servers/Browser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/FTP.py" afterPath="$PROJECT_DIR$/core/servers/FTP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/HTTP.py" afterPath="$PROJECT_DIR$/core/servers/HTTP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/IMAP.py" afterPath="$PROJECT_DIR$/core/servers/IMAP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/Kerberos.py" afterPath="$PROJECT_DIR$/core/servers/Kerberos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/LDAP.py" afterPath="$PROJECT_DIR$/core/servers/LDAP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/MSSQL.py" afterPath="$PROJECT_DIR$/core/servers/MSSQL.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/POP3.py" afterPath="$PROJECT_DIR$/core/servers/POP3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/SMB.py" afterPath="$PROJECT_DIR$/core/servers/SMB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/SMTP.py" afterPath="$PROJECT_DIR$/core/servers/SMTP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/servers/__init__.py" afterPath="$PROJECT_DIR$/core/servers/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/ClientRequest.py" afterPath="$PROJECT_DIR$/core/sslstrip/ClientRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/CookieCleaner.py" afterPath="$PROJECT_DIR$/core/sslstrip/CookieCleaner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/DnsCache.py" afterPath="$PROJECT_DIR$/core/sslstrip/DnsCache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/SSLServerConnection.py" afterPath="$PROJECT_DIR$/core/sslstrip/SSLServerConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/ServerConnection.py" afterPath="$PROJECT_DIR$/core/sslstrip/ServerConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/ServerConnectionFactory.py" afterPath="$PROJECT_DIR$/core/sslstrip/ServerConnectionFactory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/StrippingProxy.py" afterPath="$PROJECT_DIR$/core/sslstrip/StrippingProxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/URLMonitor.py" afterPath="$PROJECT_DIR$/core/sslstrip/URLMonitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/sslstrip/__init__.py" afterPath="$PROJECT_DIR$/core/sslstrip/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/utils.py" afterPath="$PROJECT_DIR$/core/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/__init__.py" afterPath="$PROJECT_DIR$/libs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/.gitignore" afterPath="$PROJECT_DIR$/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/dns/.gitignore" afterPath="$PROJECT_DIR$/logs/dns/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/ferret-ng/.gitignore" afterPath="$PROJECT_DIR$/logs/ferret-ng/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/responder/.gitignore" afterPath="$PROJECT_DIR$/logs/responder/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mitmf.py" afterPath="$PROJECT_DIR$/mitmf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/__init__.py" afterPath="$PROJECT_DIR$/plugins/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/appcachepoison.py" afterPath="$PROJECT_DIR$/plugins/appcachepoison.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/browserprofiler.py" afterPath="$PROJECT_DIR$/plugins/browserprofiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/browsersniper.py" afterPath="$PROJECT_DIR$/plugins/browsersniper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ferretng.py" afterPath="$PROJECT_DIR$/plugins/ferretng.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/filepwn.py" afterPath="$PROJECT_DIR$/plugins/filepwn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/htadriveby.py" afterPath="$PROJECT_DIR$/plugins/htadriveby.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/imagerandomizer.py" afterPath="$PROJECT_DIR$/plugins/imagerandomizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/inject.py" afterPath="$PROJECT_DIR$/plugins/inject.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jskeylogger.py" afterPath="$PROJECT_DIR$/plugins/jskeylogger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/plugin.py" afterPath="$PROJECT_DIR$/plugins/plugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/replace.py" afterPath="$PROJECT_DIR$/plugins/replace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/responder.py" afterPath="$PROJECT_DIR$/plugins/responder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/screenshotter.py" afterPath="$PROJECT_DIR$/plugins/screenshotter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/smbauth.py" afterPath="$PROJECT_DIR$/plugins/smbauth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/smbtrap.py" afterPath="$PROJECT_DIR$/plugins/smbtrap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/spoof.py" afterPath="$PROJECT_DIR$/plugins/spoof.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/sslstrip+.py" afterPath="$PROJECT_DIR$/plugins/sslstrip+.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/upsidedownternet.py" afterPath="$PROJECT_DIR$/plugins/upsidedownternet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/basic_tests.py" afterPath="$PROJECT_DIR$/tests/basic_tests.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MITMf$mitmf.coverage" NAME="mitmf Coverage Results" MODIFIED="1495887032795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MITMf$filepwn.coverage" NAME="filepwn Coverage Results" MODIFIED="1495887066192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-507">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mitmf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mitmf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filepwn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/filepwn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/mitmf.py" />
+        <option value="$PROJECT_DIR$/plugins/filepwn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="105" />
+    <option name="width" value="1608" />
+    <option name="height" value="910" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MITMf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/python" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.filepwn">
+    <configuration default="false" name="mitmf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mitmf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="filepwn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plugins" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plugins/filepwn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#PerlConfigurationType" factoryName="Perl" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="alternativeSdkPath" />
+      <option name="compileTimeBreakpointsEnabled" value="false" />
+      <option name="consoleCharset" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="nonInteractiveModeEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="perlParameters" value="" />
+      <option name="programParameters" />
+      <option name="scriptPath" />
+      <option name="useAlternativeSdk" value="false" />
+      <option name="workingDirectory" />
+      <option name="SCRIPT_PATH" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="PERL_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENVS">
+        <map />
+      </option>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="CHARSET" />
+      <option name="USE_ALTERNATIVE_SDK" value="false" />
+      <option name="ALTERNATIVE_SDK_PATH" />
+      <option name="scriptCharset" value="utf8" />
+      <option name="startMode" value="RUN" />
+      <option name="isNonInteractiveModeEnabled" value="false" />
+      <option name="isCompileTimeBreakpointsEnabled" value="false" />
+      <option name="initCode" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="" target="">
+        <envs />
+      </makefile>
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="MITMf" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MITMf" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.mitmf" />
+      <item index="1" class="java.lang.String" itemvalue="Python.filepwn" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.filepwn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mitmf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdd8eb1a-c247-4dbf-9bce-c668a4c0c605" name="Default" comment="" />
+      <created>1495886248353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495886248353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="82" y="105" width="1608" height="910" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27091378" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Basis.js" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/filepwn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
